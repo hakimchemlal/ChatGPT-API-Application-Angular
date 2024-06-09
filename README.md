@@ -27,4 +27,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 # Interface de l'application BamBino :
-<img src="src/assets/img/application_chat_gpt_accueil.png" width="220" height="400">     <img src="app/src/main/res/interface/chat_gpt_application_api.png" width="220" height="400">
+<img src="src/assets/img/application_chat_gpt_accueil.png">     
+<img src="app/src/main/res/interface/chat_gpt_application_api.png">
