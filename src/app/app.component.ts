@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import {Router, RouterOutlet} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -10,5 +10,14 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'ang-gpt-chatbot';
+  actions=[{route: '/home',title: 'Home', icon: 'house'},
+    {route: '/gpt',title: 'GPT', icon: 'robot'}];
+  currentAction:any;
+  constructor(private router:Router) {
+  }
+
+  handleRoute(action:any ) {
+    this.currentAction = action;
+    this.router.navigate([action.route]);
+  }
 }
