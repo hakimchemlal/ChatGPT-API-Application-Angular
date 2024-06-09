@@ -26,3 +26,5 @@ Cette application est une interface de chat qui utilise l'API GPT pour générer
 ## Contribution
 
 Les contributions sont les bienvenues. Veuillez ouvrir une issue ou une pull request pour toute contribution.
+
+# Interface de l'application Chat GPT API :
